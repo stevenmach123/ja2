@@ -1,5 +1,4 @@
-
-import java.util.ArrayList;
+ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -51,24 +50,20 @@ public class  help2 {
             
 
         }
-        LinkedList e = new LinkedList<>();
-    
-        boolean none = true;
-        for(Object i: l.get(l.size()-1)){
-            if(i != null)
-                none = false;
-        }
-        if(none) 
-            l.remove(l.size()-1);    
+     
+        
 
         return l;
         
-      
+
 
 
   }
     
 
+
+
+    
 
 
     
