@@ -7,6 +7,7 @@ import java.util.Set;
 public class graphValidTree {
     public boolean validTree(int n, int[][] edges) {
         var map = new HashMap<Integer,Set<Integer>>() ;
+        var v= 0;
         var visited = new HashSet<Integer>();
         if(edges.length == 0)
             return true;
